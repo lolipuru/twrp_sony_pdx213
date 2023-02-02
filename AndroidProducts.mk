@@ -15,8 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_alioth.mk \
-    $(LOCAL_DIR)/twrp_munch.mk \
-    $(LOCAL_DIR)/twrp_thyme.mk \
-    $(LOCAL_DIR)/twrp_psyche.mk
+    $(LOCAL_DIR)/twrp_pdx206.mk 
 
