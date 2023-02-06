@@ -101,12 +101,6 @@ void vendor_load_properties()
         model_property_override("pdx206", "XQ-AS62");
       } else if (model == "XQ-AS72") {
         model_property_override("pdx206", "XQ-AS72");
-      } else if (model == "SO-52A") {
-        model_property_override("pdx206", "SO-52A");
-      } else if (model == "SOG02") {
-        model_property_override("pdx206", "SOG02");
-      } else if (model == "A002SO") {
-        model_property_override("pdx206", "A002SO");
       } 
    } 
 
@@ -120,10 +114,6 @@ void vendor_load_properties()
         model_property_override("pdx203", "XQ-AT62");
       } else if (model == "XQ-AT72") {
         model_property_override("pdx203", "XQ-AT72");
-      } else if (model == "SO-52A") {
-        model_property_override("pdx203", "SO-51A");
-      } else if (model == "SOG02") {
-        model_property_override("pdx203", "SOG01");
       } 
    } 
    
