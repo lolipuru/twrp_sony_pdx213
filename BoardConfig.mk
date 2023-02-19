@@ -103,9 +103,6 @@ AB_OTA_PARTITIONS += \
     vbmeta_system \
     odm \
     vendor
-    
-# Assert
-TARGET_OTA_ASSERT_DEVICE := $(PRODUCT_RELEASE_NAME)
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
