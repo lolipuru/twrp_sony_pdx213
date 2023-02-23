@@ -19,6 +19,10 @@ DEVICE_PATH := device/sony/pdx206
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2560
+TARGET_SCREEN_WIDTH := 1440
+
 # Release name
 PRODUCT_RELEASE_NAME := pdx203
 
