@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 PRODUCT_PACKAGES += \
-    bootctrl.sony_sm8250.recovery \
+    bootctrl.sony_sm6350.recovery \
     android.hardware.boot@1.1-impl-qti.recovery
 
 # SHIPPING API
