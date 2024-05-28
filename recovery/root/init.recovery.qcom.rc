@@ -40,10 +40,12 @@ on init
     start boot-hal-1-1
 
 on boot
-    write /sys/devices/virtual/sec/tsp/after_work 1
     start health-hal-2-1
     start vendor.qti.vibrator
     setprop sys.usb.config adb
+
+on property:twrp.modules.loaded=true
+    write /sys/devices/virtual/sec/tsp/after_work 1
 
 on property:vendor.sys.listeners.registered=true
     start keymaster-4-0
