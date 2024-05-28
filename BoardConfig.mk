@@ -188,4 +188,4 @@ TW_HAS_EDL_MODE := false
 TW_SUPPORT_INPUT_AIDL_HAPTICS :=true
 TW_BACKUP_EXCLUSIONS := /data/fonts
 
-TW_LOAD_VENDOR_MODULES := "sec_touchscreen.ko last_logs.ko lcd.ko texfat.ko et580-int.ko flash_led.ko"
+TW_LOAD_VENDOR_MODULES := "last_logs.ko lcd.ko texfat.ko"
