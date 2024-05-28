@@ -187,5 +187,6 @@ TW_EXCLUDE_APEX := true
 TW_HAS_EDL_MODE := false
 TW_SUPPORT_INPUT_AIDL_HAPTICS :=true
 TW_BACKUP_EXCLUSIONS := /data/fonts
+TW_FRAMERATE := 60
 
 TW_LOAD_VENDOR_MODULES := "last_logs.ko lcd.ko texfat.ko"
